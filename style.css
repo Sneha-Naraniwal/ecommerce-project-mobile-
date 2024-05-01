@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lugrasimo&display=swap');
+ 
+  body {
+    font-family: "Josefin Sans", sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #000107;
+  }
+  
+  nav {
+    background-color: #000107;
+    color: white;
+    padding: 20px 50px;
+  }
+  
+  .navImg{
+    width: 15%;
+  }
+  
+  .navTop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .search {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    margin-right: 425px;
+    height: 40px;
+    
+  }
+  
+  .navBottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .menuItem {
+    margin-right: 50px;
+    color: lightgray;
+    font-weight: 400;
+    font-size: x-large;
+  }
+
+  .container {
+    display: flex;
+  }
+
+  .Apple {
+    height: 500%;
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .Apple h2 {
+    margin-top:6px; ;
+    margin-left: 60px;
+    color:white;
+  }
+
+  .Apple-one {
+    height: 250%;
+    display: flex;
+  }
+
+  .product:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+
+  .product img {
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 125px;
+  }
+
+  #product-vivo img {
+    margin-left: 25px;
+  }
+
+  .product p {
+    margin-left: 25px;
+  }
+
+  .product h1{
+    margin-left: 25px;
+  }
+
+  .product h2{
+    margin-left: 25px;
+  }
+
+  .product h3 {
+    margin-left: 25px;
+  }
+
+  .product button{
+   
+    align-items: center;
+    background-color: #004aad;
+    border-radius: 40px;
+    color: white;
+  }
+
+  .product button:hover {
+    background-color: white;
+    color: #004aad;
+    transition: .5s ease-in;
+  }
+
+  .Vivo {
+    height: 500%;
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .Vivo h2 {
+    margin-left: 22px;
+  }
+
+  .Vivo-one {
+    height: 250%;
+    display: flex;
+  }
+
+  
+
+  .Samsung {
+    height: 500%;
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .Samsung h2 {
+    margin-left: 22px;
+  }
+
+  .Samsung-one {
+    height: 250%;
+    display: flex;
+  }
+
+
+  .Oppo {
+    height: 500%;
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .Oppo h2 {
+    margin-left: 22px;
+  }
+
+  .Oppo-one {
+    height: 250%;
+    display: flex;
+  }
+
+  
+  .picture {
+    display: flex;
+    
+  }  
+   
+  .pictureImg {
+    width: 100%;
+    height: 500px;
+    justify-content: space-evenly;
+  }
+  .video{
+    width:100%;
+    height:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    overflow:hidden;
+  }
+  .bgvideo{
+    width:100%;
+    height: 100%;
+    position:absolute;
+    bottom:0;
+    z-index:-100;
+    right:0;
+  }
+.product img{
+  height : 200px;
+  animation-name: movement;
+  animation-duration: 20s;
+
+}
+@keyframes movement{
+  30%{ transform: translate(-50px);}
+}
+  
+.Apple-one img{
+  width:200px;
+}
+  
+.Vivo-one img{
+  width:300px;
+}
+input[type="text"]{
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+html {
+  
+  font-family: 'League Spartan', sans-serif;
+  
+  
+  }
